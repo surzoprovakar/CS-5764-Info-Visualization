@@ -1,0 +1,10 @@
+10:10:44 From Nicholas Polys To Everyone:
+	SUMO	https://en.wikipedia.org/wiki/Suggested_Upper_Merged_Ontology		https://www.aaai.org/Papers/Workshops/2002/WS-02-11/WS02-11-011.pdf		http://eridanus.cz/id32402/jazyk/jazykove(2da/aplikovana(1_lingvistika/Ontologie/SUMO/Sevcenko.pdf		Sensor data:	https://ieeexplore.ieee.org/abstract/document/4362539?casa_token=jq95Qv2ljiwAAAAA:v5k6K1hCmQcsYDvY8zDZ-yJN0rV5fDXwxOoqWcUEocfcxDJni-T5AVDJrQ1Tlh8PCnKKKMNN5Q		YAGO	https://dl.acm.org/doi/abs/10.1145/1242572.1242667?casa_token=yA_zxAqbVmUAAAAA:OaD8-DPSzUFdbcQuhP7R-eyy3PJRLMkWTaEIhOgxEjZraP5rnKKNSL02Fcwqy_tNYk8uB-_lqUBN			YAGO_SUMO	http://gerard.demelo.org/yagosumo/			Portal code	https://github.com/ontologyportal		JKIF parser in JS	https://www.npmjs.com/package/jkif-parser			Other domain Ontology examples:	https://protegewiki.stanford.edu/wiki/Protege_Ontology_Library	https://www.w3.org/wiki/Good_Ontologies		http://geneontology.org/docs/download-ontology/
+10:42:12 From Carlos Augusto Bautista Isaza To Everyone:
+	gephy
+10:42:36 From Carlos Augusto Bautista Isaza To Everyone:
+	gephi
+10:49:37 From Nicholas Polys To Everyone:
+	x3dom.org
+10:53:30 From Nicholas Polys To Everyone:
+	https://vtdlp-demo.cloud.lib.vt.edu/collection/1f40gw0z

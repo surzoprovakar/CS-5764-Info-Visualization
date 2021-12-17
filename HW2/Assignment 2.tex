@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage{adjustbox}
+\title{Homework 2}
+\author{Provakar Mondal}
+\date{}
+
+\begin{document}
+
+\maketitle
+\section{Problem 1}
+
+\begin{itemize}
+
+ \item \textbf{Dataset Types:} Cluster. This Visualization shows a stock martket data in which industires are showed in a cluster based on their types like Technology, Telecommunicaiton, Consumar etc.
+ 
+ \item \textbf{Data Types:}
+ 	\begin{itemize}
+ 		\item \textbf{Items:} Industry. For example, Microsoft, Google, Cisco etc
+ 		\item \textbf{Attributes:} Total Stock Price, Percentage increment/decrement.
+ 		\item \textbf{Attributes\hspace{2mm}Types:} \\ \textbf{i) Quantative:} As the visualization depicts the stock price of the industries and this prices are quantative values. \\
+ 		\textbf{ii) Categorical:} Industry are categorical as they are clustered based on their types. 
+ 	
+	\end{itemize}
+	
+\item \textbf{Dataset and Data Sizes:} Dynamic data. And these dataset and data are scalable. New industry can be added if its stock status lies in the range of this visualization. Similaly, any industry can be removed from a cluster.\linebreak
+Same condition is also applicable for the Cluster Dataset types. 
+
+\item \textbf{Semantics:} This visualization gives idea about the stock market statistics of different types of industries. The big fish industries are visualized in a larger rectangle. Besides, types of industries who are dominating stock market is also visualized using larger rectangle as cluster size. For example, from this visualization it is understandable that \textbf{Technology-Software-Infrastructure, Technology-Consumer-Electronics, Communication Services} types industries are ruling the stock market. 
+ 
+\end{itemize}
+
+\section{Problem 2}
+
+\textbf{\hspace{12mm}Ten Task questions from visualization 1 (finviz Map)}\\\\
+\textbf{i) Retrieve Value:} Find the stock price difference between Danaher Corporation(DHR) and Waters Corporation(WAT).\\
+\textbf{ii) Filter:} Find the industries whose stock price lies in the range 500 - 1500.\\
+\textbf{iii) Compute Derived Value:} Make new attribute in each cluster by subtracting each industry's stock from the max stock price wihin this cluster.\\
+\textbf{iv) Find Extremum:} Which type of cluster posses the largest volume?\\
+\textbf{v) Sort:} Order the industries in ascending by their stock price change. \\
+\textbf{vi) Determine Range:} What is the range of market stock price?\\
+\textbf{vii) Characterize Distribution:} Waht is the distribution of stock price in Technology-Software-Infrastructure?\\
+\textbf{viii) Find Anomalies:} Is there any anomaly in the stock curve of VeriSign Inc?\\
+\textbf{ix) Cluster:} Is there any cluster in this visualization?\\
+\textbf{x) Correlate:} What is the relationship between cluster size and stock prices of the industires in it?\\
+
+
+
+\textbf{\hspace{10mm}Ten Task questions from visualization 2 (finviz Bubbles)}\\\\
+\textbf{i) Retrieve Value:} What is the stock change value of PayPal Holding Inc (PYPL)?\\
+\textbf{ii) Filter:} Get the industires within the stock change between -1\% to +1\%.\\
+\textbf{iii) Compute Derived Value:} How many industires are in this visualization whose average volume is under 1M? \\
+\textbf{iv) Find Extremum:} Find the industry with maximum percentage change of stock.\\
+\textbf{v) Sort:} Sort the industry by their average volume size.\\
+\textbf{vi) Determine Range:} Find the range of stock percentage change.\\
+\textbf{vii) Characterize Distribution:} Find the distribution of bubble size based on stock percentage change.\\
+\textbf{viii) Find Anomalies:} Is there any industry whose stock percentage changes shows exception than others?\\
+\textbf{ix) Cluster:} Is there any group based on Communication Services in this visualization?\\
+\textbf{x) Correlate:} Is there any relationship between bubble size of the industry and their market price?\\\\
+
+\textbf{Table results based on the task questions from 3 users}\\
+
+\begin{adjustbox}{width=1\textwidth}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+& \multicolumn{20}{|c|}{Map task}\\
+\hline
+& \multicolumn{2}{|c|}{Task A} & \multicolumn{2}{|c|}{Task B} & \multicolumn{2}{|c|}{Task C} & \multicolumn{2}{|c|}{Task D} & \multicolumn{2}{|c|}{Task E} & \multicolumn{2}{|c|}{Task F} & \multicolumn{2}{|c|}{Task G} & \multicolumn{2}{|c|}{Task H} & \multicolumn{2}{|c|}{Task I} & \multicolumn{2}{|c|}{Task J}\\
+\hline
+& time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct\\
+\hline
+User 1 & 57 & 1 & 177 & 1 & 567 & 1 & 12 & 1 & 413 & 0 & 345 & 1 & 543 & 1 & 34 & 0 & 02 & 1 & 08 & 1\\
+\hline
+User 2 & 41 & 1 & 282 & 1 & 290 & 0 & 07 & 1 & 519 & 1 & 293 & 1 & 489 & 0 & 76 & 1 & 02 & 1 & 06 & 1\\
+\hline
+User 3 & 93 & 1 & 300 & 0 & 731 & 1 & 15 & 1 & 862 & 1 & 306 & 0 & 614 & 1 & 23 & 1 & 01 & 1 & 13 & 1\\
+\hline
+\end{tabular}
+\end{adjustbox}\\\\
+
+\begin{adjustbox}{width=1\textwidth}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+& \multicolumn{20}{|c|}{Bubble task}\\
+\hline
+& \multicolumn{2}{|c|}{Task A} & \multicolumn{2}{|c|}{Task B} & \multicolumn{2}{|c|}{Task C} & \multicolumn{2}{|c|}{Task D} & \multicolumn{2}{|c|}{Task E} & \multicolumn{2}{|c|}{Task F} & \multicolumn{2}{|c|}{Task G} & \multicolumn{2}{|c|}{Task H} & \multicolumn{2}{|c|}{Task I} & \multicolumn{2}{|c|}{Task J}\\
+\hline
+& time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct & time(s) & correct\\
+\hline
+User 1 & 15 & 1 & 371 & 1 & 84 & 1 & 02 & 1 & 810 & 0 & 153 & 0 & 256 & 1 & 22 & 1 & 09 & 1 & 03 & 1\\
+\hline
+User 2 & 17 & 1 & 304 & 1 & 121 & 1 & 05 & 1 & 785 & 0 & 432 & 0 & 371 & 1 & 18 & 1 & 05 & 1 & 04 & 1\\
+\hline
+User 3 & 21 & 1 & 269 & 1 & 48 & 1 & 08 & 1 & 268 & 0 & 173 & 0 & 218 & 0 & 17 & 1 & 13 & 1 & 08 & 1\\
+\hline
+\end{tabular}
+\end{adjustbox}\\\\\\
+
+\textbf{\large My Hypothesis}
+\begin{itemize}
+\item Vis 1 contains more information at a first glance than vis 2.
+\item Though vis 1 contanins more info at first glace, users find it more difficult to depict information than vis 2.
+\item Users from who I have collected task answers, everyone thinks vis 2 is more east to retrieve information than vis 1.
+\item Viz 2 is more friendly in the respect of fetching information. The information in vis 1 is compacted rather than vis 2. 
+\item I think for the 1st time users, vis 2 is better than vis 1 to represent information before them.
+\end{itemize}
+
+\end{document}
